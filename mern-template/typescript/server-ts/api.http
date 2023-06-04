@@ -1,0 +1,12 @@
+GET http://localhost:7070/api/users
+
+###
+
+POST http://localhost:7070/api/users
+Content-Type: application/json
+
+{
+    "name": "boldoo",
+    "email": "boldoo@example.com",
+    "password": "password"
+}
